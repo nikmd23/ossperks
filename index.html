@@ -1,77 +1,143 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/site.css" />
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
-    <title>OssPerks by nikmd23</title>
-  </head>
+    <title>OSS Perks</title>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="inner">
-        <h1>OssPerks</h1>
-        <h2>A listing of tools that are made freely available to open source projects.</h2>
-        <a href="https://github.com/nikmd23/ossperks" class="button"><small>View project on</small>GitHub</a>
-      </div>
+        <div class="header-inner">
+            <h1 style="float:left">OSS Perks</h1>
+            <p style="float:left; margin-left:2em">A listing of tools that are made freely available to open source projects.</p>
+            <div style="float:right">
+                Maintained by Nik Molnar &<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Anthony van der Hoorn
+            </div>
+        </div>
     </header>
+    <div class="body">
+        <div class="body-inner">
+            <div class="clear"></div>
+            <div class="filters" style="display:none;"><dl>
+                    <dt><h3>Platform</h3></dt>
+                    <dd><div class="tag platform">.net</div></dd>
+                </dl><dl>
+                    <dt><h3>Category</h3></dt>
+                    <dd><div class="tag category">Deployment</div><div class="tag category">Productivity</div><div class="tag category">SQL Server</div><div class="tag category">IDE</div><div class="tag category">Source Control</div><div class="tag category">Package Management</div><div class="tag category">Build</div></dd>
+                </dl><dl>
+                    <dt><h3>Company</h3></dt>
+                    <dd><div class="tag company deactive">Redgate</div><div class="tag company">JetBrains</div></dd> 
+            </dl></div>
+            <section class="products"> 
+                <ul class="product-listing reset">
+                    <li>
+                        <div class="product-overview">
+                            <div class="product-title">
+                                <h2><a href="http://www.red-gate.com/delivery/deployment-manager/free-licenses">Deployment Manager</a></h2> 
+                                by <div class="tag company"><a href="http://www.red-gate.com">Redgate</a></div>
+                            </div>
+                            <div class="tag platform">.net</div>
+                        </div>
+                        <div class="product-description">
+                            Take the micromanagement out of deployment with a tool that makes the process fast, reliable, repeatable, and accessible to your whole team.
+                        </div>
+                        <div class="tag category">Deployment</div><div class="tag category">SQL Server</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="product-overview">
+                            <div class="product-title">
+                                <h2><a href="http://www.jetbrains.com/resharper/buy/buy.jsp#openSource">ReSharper</a></h2> 
+                                by <div class="tag company"><a href="http://www.jetbrains.com">JetBrains</a></div>
+                            </div>
+                            <div class="tag platform">.net</div>
+                        </div>
+                        <div class="product-description">
+                            ReSharper is a renowned productivity tool that makes Microsoft Visual Studio a much better IDE. Thousands of .NET developers worldwide wonder how they’ve ever lived without ReSharper’s code inspections, automated code refactorings, blazing fast navigation, and coding assistance.
+                        </div>
+                        <div class="tag category">Productivity</div><div class="tag category">IDE</div>
+                        <div class="clear"></div>
+                    </li> 
+                    <li>
+                        <div class="product-overview">
+                            <div class="product-title">
+                                <h2><a href="https://github.com/">GitHub</a></h2> 
+                                by <div class="tag company"><a href="https://github.com/">GitHub</a></div>
+                            </div>
+                            <div class="tag platform">any</div>
+                        </div>
+                        <div class="product-description">
+                            Powerful collaboration, review, and code management for open source and private development projects.
+                        </div>
+                        <div class="tag category">Source Control</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="product-overview">
+                            <div class="product-title">
+                                <h2><a href="https://www.codeplex.com/">CodePlex</a></h2> 
+                                by <div class="tag company"><a href="https://www.microsoft.com/">Microsoft</a></div>
+                            </div>
+                            <div class="tag platform">any</div>
+                        </div>
+                        <div class="product-description">
+                            CodePlex is Microsoft's free open source project hosting site. You can create projects to share with the world, collaborate with others on their projects, and download open source software.
+                        </div>
+                        <div class="tag category">Source Control</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="product-overview">
+                            <div class="product-title">
+                                <h2><a href="http://www.myget.org/">MyGet</a></h2> 
+                                by <div class="tag company"><a href="http://www.myget.org/">MyGet</a></div>
+                            </div>
+                            <div class="tag platform">any</div>
+                        </div>
+                        <div class="product-description">
+                            MyGet allows you to create and host your own NuGet feed. Include packages from the official NuGet feed or upload your own NuGet packages. Compatible with NuGet, the Visual Studio Package Manager Console, Orchard, SymbolSource and many more.
+                        </div>
+                        <div class="tag category">Package Management</div><div class="tag category">Build</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2>
-<a name="tools" class="anchor" href="#tools"><span class="octicon octicon-link"></span></a>Tools</h2>
-
-<p><a href="http://www.red-gate.com/">Redgate</a> <a href="http://www.red-gate.com/delivery/deployment-manager/free-licenses">Deployment Manager</a>: Take the micromanagement out of deployment with a tool that makes the process fast, reliable, repeatable, and accessible to your whole team.</p>
-
-<p><a href="http://www.jetbrains.com/">JetBrains</a> <a href="http://www.jetbrains.com/resharper/buy/buy.jsp#openSource">ReSharper</a>: ReSharper is a renowned productivity tool that makes Microsoft Visual Studio a much better IDE. Thousands of .NET developers worldwide wonder how they’ve ever lived without ReSharper’s code inspections, automated code refactorings, blazing fast navigation, and coding assistance.</p>
-
-<h2>
-<a name="services" class="anchor" href="#services"><span class="octicon octicon-link"></span></a>Services</h2>
-
-<p><a href="https://github.com/">GitHub</a>: Powerful collaboration, review, and code management for open source and private development projects.</p>
-
-<p><a href="https://www.microsoft.com/">Microsoft</a> <a href="https://www.codeplex.com/">CodePlex</a>: CodePlex is Microsoft's free open source project hosting site. You can create projects to share with the world, collaborate with others on their projects, and download open source software.</p>
-
-<p><a href="http://www.myget.org/">MyGet</a>:  MyGet allows you to create and host your own NuGet feed. Include packages from the official NuGet feed or upload your own NuGet packages. Compatible with NuGet, the Visual Studio Package Manager Console, Orchard, SymbolSource and many more.  </p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/nikmd23/ossperks/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/nikmd23/ossperks/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/nikmd23/ossperks"></a> is maintained by <a href="https://github.com/nikmd23">nikmd23</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+            </section>
+        </div>
     </div>
-
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-41588146-1");
+    <footer>
+        <div class="footer-inner">
+            <div style="float:left">Go forth and be awesome!</div>
+            <div style="float:right">&copy; 2013 Nik Molnar & Anthony van der Hoorn</div>
+        </div>
+    </footer> 
+    <!-- 
+    <script src="./javascript/main.js"></script>
+      -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('.filters .tag').click(function() {
+                var item = $(this).toggleClass('deactive').hasClass('deactive');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");
+        document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker=_gat._getTracker("UA-41588146-1");
             pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+        } catch(err) { }
+    </script>
 
-  </body>
+</body>
 </html>

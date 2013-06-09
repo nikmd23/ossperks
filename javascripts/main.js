@@ -1,1 +1,5 @@
-console.log('This would be the main JS file.');
+$(function() {
+    $('.filters .tags').click(function() {
+        var item = $(this).toggle('deactive');
+    });
+});
