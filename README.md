@@ -1,12 +1,15 @@
-## Tools
+#OSS Perks 
+A listing of tools & services freely available to open source projects.
 
-- [Redgate](http://www.red-gate.com/) [Deployment Manager](http://www.red-gate.com/delivery/deployment-manager/free-licenses): Take the micromanagement out of deployment with a tool that makes the process fast, reliable, repeatable, and accessible to your whole team.
+http://ossperks.com/
 
-- [JetBrains](http://www.jetbrains.com/) [ReSharper](http://www.jetbrains.com/resharper/buy/buy.jsp#openSource): ReSharper is a renowned productivity tool that makes Microsoft Visual Studio a much better IDE. Thousands of .NET developers worldwide wonder how they’ve ever lived without ReSharper’s code inspections, automated code refactorings, blazing fast navigation, and coding assistance.
+## Adding your favourite perk
+* Fork the repository
+* Add the perk to index.html, try to use a link that points to information about what is needed to qualify for a free license.
+* Make a pull request
 
-## Services
-- [GitHub](https://github.com/): Powerful collaboration, review, and code management for open source and private development projects.
-
-- [Microsoft](https://www.microsoft.com/) [CodePlex](https://www.codeplex.com/): CodePlex is Microsoft's free open source project hosting site. You can create projects to share with the world, collaborate with others on their projects, and download open source software.
-
-- [MyGet](http://www.myget.org/):  MyGet allows you to create and host your own NuGet feed. Include packages from the official NuGet feed or upload your own NuGet packages. Compatible with NuGet, the Visual Studio Package Manager Console, Orchard, SymbolSource and many more.  
+## Notes on platform tag 
+`<div class="tag platform">`
+* Platform is development platform like .Net/Java/JavaScript/HTML. 
+* Use it for tools geared towards a specific platform/language, enter "any" if not applicable.
+* Don't put operating systems in here. 
