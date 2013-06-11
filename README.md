@@ -29,3 +29,8 @@ A listing of tools & services freely available to open source projects at [ossPe
 * Try to use `{URL to Tool/Service Page}` that points to information about what is needed to qualify for a free license.
 * `{Platform}` is a development platform like `.Net`, `Java`, `JavaScript` or `Ruby`. 
   * For non-platform specific tools, enter `any`, not an operating system. 
+
+## About ossperks.com
+The long rerm plan is to build something big and beautiful that provides value for open source projects, consisting of 
+a community edited information source. But for starters we're keeping it simple while taking the pulse of the 
+community. Is there any interest? What are the needs?
