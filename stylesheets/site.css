@@ -148,6 +148,7 @@ header {
     background-repeat: no-repeat;
     padding-left: 20px;
     text-decoration: none;
+    background-position: left;
 }
 .github {
     background-image: url("//plus.google.com/_/favicon?domain=github.com");
