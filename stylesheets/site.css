@@ -4,7 +4,7 @@ audio:not([controls]){display:none;height:0}
 [hidden]{display:none}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 a:focus{outline:thin dotted}
-a:active,a:hover{outline:0}
+a:active,a:hover{ outline: 0;text-decoration: underline}
 h1{font-size:2em;margin:.67em 0}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:700}
@@ -143,4 +143,22 @@ header {
 }
 .deactive.category { 
     border: 1px solid #559fdf;
+}
+.icon {
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.github {
+    background-image: url("//plus.google.com/_/favicon?domain=github.com");
+}
+.twitter {
+    background-image: url("//plus.google.com/_/favicon?domain=twitter.com");
+}
+.nav {
+    margin-top: -15px;
+}
+.nav li {
+    list-style: none;
+    padding: 5px 0px;
 }
