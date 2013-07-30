@@ -1,0 +1,14 @@
+<li>
+	<div class="product-overview">
+		<div class="product-title">
+		    <h2><a href="{{ item.perk.uri }}">{{ item.perk.name }}</a></h2> 
+		    by <div class="tag company"><a href="{{ item.company.uri }}">{{ item.company.name }}</a></div>
+		</div>
+		{% for platform in item.platforms %}<div class="tag platform">{{ platform }}</div>
+	</div>
+	<div class="product-description">
+		{{ item.description }}
+	</div>
+	{% for category in item.categories %}<div class="tag category">{{ category }}</div>{% endfor %}
+	<div class="clear"></div>
+</li>

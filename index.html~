@@ -152,7 +152,7 @@ perks:
 - perk: {name: .NET Reflector, uri: http://reflectorblog.red-gate.com/2013/07/open-source/}
   description: Decompile, understand, and fix any .NET code, even if you don't have the source.
   categories: [Decompiler]
-  platforms: [.net]
+  platform: [.net]
   company: *redgate
 
 #============================================== Leave everything below this line alone =====================================================================

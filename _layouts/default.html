@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/site.css" />
+
+    <title>OSS Perks - &#946;eta</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <h1 style="float:left">OSS Perks &#946;</h1>
+            <p style="float:left; margin-left:2em">A listing of tools and services that are made freely available to open source projects.</p>
+            <div style="float:right">
+                <ul class="nav">
+                    <li><a href="https://twitter.com/ossperks" class="icon twitter">Follow</a></li>
+                    <li><a href="https://github.com/nikmd23/ossperks/" class="icon github">Fork</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+        <div class="body-inner">
+            <div class="clear"></div>
+            <div class="filters" style="display:none;"><dl>
+                    <dt><h3>Platform</h3></dt>
+                    <dd><div class="tag platform">.net</div></dd>
+                </dl><dl>
+                    <dt><h3>Category</h3></dt>
+                    <dd><div class="tag category">Deployment</div><div class="tag category">Productivity</div><div class="tag category">SQL Server</div><div class="tag category">IDE</div><div class="tag category">Source Control</div><div class="tag category">Package Management</div><div class="tag category">Build</div></dd>
+                </dl><dl>
+                    <dt><h3>Company</h3></dt>
+                    <dd><div class="tag company deactive">Redgate</div><div class="tag company">JetBrains</div></dd> 
+            </dl></div>
+
+{{ content }}
+
+            
+        </div>
+    </div>
+    <footer>
+        <div class="footer-inner">
+            <div style="float:left">Go forth and be awesome!</div>
+            <div style="float:right">&copy; 2013 <a href="https://twitter.com/nikmd23">Nik Molnar</a> & <a href="https://twitter.com/anthony_vdh">Anthony van der Hoorn</a></div>
+        </div>
+    </footer> 
+    <!-- 
+    <script src="./javascript/main.js"></script>
+      -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('.filters .tag').click(function() {
+                var item = $(this).toggleClass('deactive').hasClass('deactive');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");
+        document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker=_gat._getTracker("UA-41588146-1");
+            pageTracker._trackPageview();
+        } catch(err) { }
+    </script>
+
+</body>
+</html>
