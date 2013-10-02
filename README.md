@@ -1,6 +1,6 @@
 ![MVP Perks](/images/logo.png)
 ---
-A listing of tools & services freely available to Microsoft MVP's at [mvpPerks.com](http://mvpperks.com/).
+A listing of tools & services freely available to Microsoft MVP's at [http://xavierdecoster.github.io/mvpperks](http://xavierdecoster.github.io/mvpperks).
 
 ## How to Add a Perk
 * Fork the repository
@@ -27,5 +27,5 @@ A listing of tools & services freely available to Microsoft MVP's at [mvpPerks.c
 * `products:` is a list of tools provided by the company like `Visual Studio` or `Windows Azure benefits`.
   * If the company offers licenses to any tool of choice, enter `Any`.
 
-## About mvpperks.com
+## About mvpperks
 This is a fork of ossperks.com. The long term plan is to build something big and beautiful that provides value for any developer community, whether open source, Microsoft MVP, user group sponsoring offers, etc. But for starters we're keeping it simple while taking the pulse of the community. Is there any interest? What are the needs?
