@@ -45,7 +45,7 @@ body {
 h1,h2,h3,h4 {
     font-family: "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Helvetica Neue", Helvetica, Arial;
 }
-h1 { 
+h1 {
     font-size: 3em;
     margin-top: 0;
 }
@@ -56,7 +56,7 @@ h1 {
   padding: 2em 2em 0 2em;
   max-width: 1150px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 header {
     background-color: #f3f3f3;
@@ -84,9 +84,9 @@ header {
 .filters dl {
     display: inline-block;
     width: 33%;
-    vertical-align: top; 
+    vertical-align: top;
 }
-.filters dd { 
+.filters dd {
     margin: 0 2em 0 0;
 }
 .filters .tag  {
@@ -133,15 +133,15 @@ header {
 .deactive {
     background-color: white;
     color:black;
-    padding: 0.15em 0.65em 0.4em; 
+    padding: 0.15em 0.65em 0.4em;
 }
-.deactive.platform { 
+.deactive.platform {
     border: 1px solid #6161e0;
 }
-.deactive.company { 
+.deactive.company {
     border: 1px solid #e2875e;
 }
-.deactive.category { 
+.deactive.category {
     border: 1px solid #559fdf;
 }
 .icon {
@@ -152,6 +152,9 @@ header {
 }
 .github {
     background-image: url("//plus.google.com/_/favicon?domain=github.com");
+}
+.ossperks {
+    background-image: url("//plus.google.com/_/favicon?domain=ossperks.com");
 }
 .twitter {
     background-image: url("//plus.google.com/_/favicon?domain=twitter.com");
