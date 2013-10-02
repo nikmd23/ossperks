@@ -8,7 +8,6 @@
 	<div class="product-description">
 		{{ item.description }}
 	</div>
-	{% for product in item.products %}<div class="tag platform">{{ product }}</div>{% endfor %}<br/>
-	{% for category in item.categories %}<div class="tag category">{{ category }}</div>{% endfor %}
+	{% for product in item.products %}<div class="tag category">{{ product }}</div>{% endfor %}
 	<div class="clear"></div>
 </li>
