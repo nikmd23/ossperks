@@ -6,7 +6,7 @@
 	</div>
 	<div class="product-description">
 		{{ item.description }}
+		{% for product in item.products %}<div class="tag category">{{ product }}</div>{% endfor %}
 	</div>
-	{% for product in item.products %}<div class="tag category">{{ product }}</div>{% endfor %}
 	<div class="clear"></div>
 </li>
