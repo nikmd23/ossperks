@@ -7,16 +7,12 @@ A listing of tools & services freely available to Microsoft MVP's at [http://xav
 * Use the following [YAML](http://www.yaml.org/) template to create an additional perk.
 
 ```yml
-  #name of the product/service & the uri to apply for an MVP license
-- perk: {name: "Microsoft", uri: "http://mvp.microsoft.com/"}
+  #name of the company & the uri to apply for an MVP license
+- perk: {company: "Microsoft", uri: "http://mvp.microsoft.com/"}
   #product/service description
   description: "MSDN Ultimate Subscription"
-  #categories the produce/service fits in
-  categories: ["IDE", "Cloud"]
   #the products/services offered to MVP's
   products: ["Visual Studio", "Windows Azure Subscription"]
-  #name of the product/service vendor & the uri to their site
-  company: {name: "Microsoft", uri: 'http://www.microsoft.com/'}
 ```
 * Add the results to the `perks:` list at the top of `index.html`.
 * Submit a pull request
@@ -28,4 +24,4 @@ A listing of tools & services freely available to Microsoft MVP's at [http://xav
   * If the company offers licenses to any tool of choice, enter `Any`.
 
 ## About mvpperks
-This is a fork of ossperks.com. The long term plan is to build something big and beautiful that provides value for any developer community, whether open source, Microsoft MVP, user group sponsoring offers, etc. But for starters we're keeping it simple while taking the pulse of the community. Is there any interest? What are the needs?
+This is a fork of [http://ossperks.com](http://ossperks.com). The long term plan is to build something big and beautiful that provides value for any developer community, whether open source, Microsoft MVP, user group sponsoring offers, etc. But for starters we're keeping it simple while taking the pulse of the community. Is there any interest? What are the needs?
