@@ -4,11 +4,11 @@
 		    <h2><a href="{{ item.perk.uri }}">{{ item.perk.name }}</a></h2>
 		    by <div class="tag company"><a href="{{ item.company.uri }}">{{ item.company.name }}</a></div>
 		</div>
-		{% for product in item.products %}<div class="tag platform">{{ product }}</div>{% endfor %}
 	</div>
 	<div class="product-description">
 		{{ item.description }}
 	</div>
+	{% for product in item.products %}<div class="tag platform">{{ product }}</div>{% endfor %}<br/>
 	{% for category in item.categories %}<div class="tag category">{{ category }}</div>{% endfor %}
 	<div class="clear"></div>
 </li>
