@@ -32,6 +32,8 @@ input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-web
 input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
+blockquote:before{color:#E5E5E5;content:open-quote;font-size:4em;vertical-align:-0.4em;}
+blockquote:after{color:#E5E5E5;content:close-quote;font-size:4em;vertical-align:-0.4em;}
 body,figure{margin:0}
 legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 .reset { list-style: none; padding:0; margin:0; }
@@ -54,7 +56,7 @@ h1 {
 .footer-inner,
 .content-inner {
   padding: 2em 2em 0 2em;
-  max-width: 1150px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto; 
 }
@@ -64,10 +66,13 @@ header {
     background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3);
     background-image: linear-gradient(#f9f9f9, #f3f3f3);
     border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+    width:100%;
+    height:110px;
 }
 .header-inner {
     position: relative;
-    height: 40px;
+    padding: 0;
 }
 .header-inner .authors {
     position: absolute;
@@ -92,27 +97,38 @@ header {
 .filters .tag  {
     cursor: pointer;
 }
+.products {
+    margin-top: 110px;
+}
 .products h2 {
     margin: 0 0 0.5em;
+    display: inline-block;
 }
-.products a {
+.products small {
+    white-space: nowrap;
+}
+.products p {
+    clear: both;
+}
+a {
     text-decoration: none;
+    color: #559FDF;
 }
-.product-overview {
-    float: left;
-    min-width:240px;
-}
-.product-title, .product-description {
-    margin-bottom: 0.75em;
+a:hover {
+    text-decoration: underline;
 }
 .product-listing li {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    border: thin solid #E5E5E5;
+    padding: 0.5em;
+    border-radius: 0.25em;
 }
 .tag {
     display:inline-block;
-    padding: 0.25em 0.75em 0.5em;
+    padding: 0.4em;
     margin: 0 0.25em 0.25em 0;
     color: white;
+    font-size: smaller;
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
@@ -121,22 +137,18 @@ header {
 .tag a, .tag a:active, .tag a:visited {
     color: white;
 }
-.platform {
-    background-color: #6161e0;
-}
 .company {
     background-color: #e2875e;
 }
 .category {
     background-color: #559fdf;
+    float: right;
+    border-radius: 0.25em;
 }
 .deactive {
     background-color: white;
     color:black;
     padding: 0.15em 0.65em 0.4em; 
-}
-.deactive.platform { 
-    border: 1px solid #6161e0;
 }
 .deactive.company { 
     border: 1px solid #e2875e;
@@ -150,14 +162,14 @@ header {
     text-decoration: none;
     background-position: left;
 }
+.mvpperks {
+    background-image: url("//plus.google.com/_/favicon?domain=xavierdecoster.github.io/mvpperks/");
+}
 .github {
     background-image: url("//plus.google.com/_/favicon?domain=github.com");
 }
 .twitter {
     background-image: url("//plus.google.com/_/favicon?domain=twitter.com");
-}
-.nav {
-    margin-top: -15px;
 }
 .nav li {
     list-style: none;
