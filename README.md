@@ -27,6 +27,7 @@ For updates, be sure to follow [@ossPerks](https://twitter.com/ossperks) on Twit
 * Try to use `{URL to Product/Service Page}` that points to information about what is needed to qualify for a free license.
 * `platforms:` is a development platform like `.net`, `Java`, `JavaScript` or `Ruby`. 
   * For non-platform specific tools, enter `Any`, not an operating system. 
+* Do not submit freeware or shareware to be listed, those aren't really *perks* :wink:
 
 ## About ossperks.com
 The long term plan is to build something big and beautiful that provides value for open source projects, consisting of 
