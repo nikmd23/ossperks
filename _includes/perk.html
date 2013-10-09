@@ -5,7 +5,9 @@
 	</h2>
 	<small>by <a href="{{ item.company.uri }}">{{ item.company.name }}</a></small>
 
+	<span class="tags">
 	{% for category in item.categories %}<span class="tag category">{{ category }}</span>{% endfor %}
+	</span>
 	
 	<p>{{ item.description }}</piv>
 </li>

@@ -53,9 +53,9 @@ h1 {
 }
 .header-inner,
 .body-inner,
-.footer-inner,
+footer,
 .content-inner {
-  padding: 2em 2em 0 2em;
+  padding: 1em 1em 0;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto; 
@@ -79,9 +79,10 @@ header {
     right:0;
     top:2em;
 }
-.footer-inner {
+footer {
     border-top: 1px solid #ddd;
     padding:1.5em 0;
+    text-align: center;
 }
 .filters {
     margin-bottom: 4em;
@@ -123,6 +124,10 @@ a:hover {
     padding: 0.5em;
     border-radius: 0.25em;
 }
+.tags {
+    white-space: nowrap;
+    float: right;
+}
 .tag {
     display:inline-block;
     padding: 0.4em;
@@ -142,7 +147,6 @@ a:hover {
 }
 .category {
     background-color: #559fdf;
-    float: right;
     border-radius: 0.25em;
 }
 .deactive {
@@ -171,7 +175,44 @@ a:hover {
 .twitter {
     background-image: url("//plus.google.com/_/favicon?domain=twitter.com");
 }
+.nav {
+    padding: 0 1em 0 0;
+}
 .nav li {
     list-style: none;
     padding: 5px 0px;
+}
+.tagline {
+    width:60%;
+    margin:auto;
+    padding-top:3em;
+}
+.logo { 
+    border: 0; 
+    font: 0/0 a; 
+    text-shadow: none; 
+    color: transparent; 
+    background: url('../images/logo.png');
+    background-size: cover;
+    width: 104px; 
+    height: 108px; 
+}
+@media all and (max-width: 35em) {
+    .tagline {
+        display: none;
+    }
+    header {
+        height: 55px;
+    }
+    .products {
+        margin-top: 55px;
+    }
+    .nav li {
+        display: inline;
+        padding-left: 0.5em;
+    }
+    .logo {
+        width: 52px;
+        height: 54px;
+    }
 }
