@@ -9,8 +9,23 @@ companyReferences:
 - atlassian: &atlassian
     name: Atlassian
     uri: http://www.atlassian.com/
-
+- telerik: &telerik
+    name: Telerik
+    uri: http://www.telerik.com/
+    
 perks:
+- perk: {name: Fiddler, uri: 'http://fiddler2.com/'}
+  description: Fiddler is a free web debugging proxy which logs all HTTP(s) traffic between your computer and the Internet.
+  categories: [Debugger, Performance, Testing, Networking]
+  platforms: [Any]
+  company: *telerik
+  
+- perk: {name: JustDecompile, uri: 'http://www.telerik.com/products/decompiler.aspx'}
+  description: .NET decompiler. JustDecompile makes it easy to recover lost source code or peer into assemblies to discover the root cause of an external bug.
+  categories: [Decompiler]
+  platforms: [.net]
+  company: *telerik
+  
 - perk: {name: Runscope Account, uri: 'http://blog.runscope.com/posts/supporting-api-focused-open-source-projects'}
   description: Solve API problems fast with Runscope. Free Community Account for HTTP API OSS project contributors.
   categories: [API]
@@ -129,7 +144,7 @@ perks:
   description: "Comprehensive HTML5/JavaScript framework for modern web and mobile app development. Kendo UI is everything professional developers need to build HTML5 sites and mobile apps. Today, productivity of an average HTML/jQuery developer is hampered by assembling a Frankenstein framework of disparate JavaScript libraries and plug-ins. Kendo UI has it all: rich jQuery-based widgets, a simple and consistent programming interface, a rock-solid DataSource, validation, internationalization, a MVVM framework, themes, templates and the list goes on."
   categories: [UI, Web, HTML, JavaScript]
   platforms: [Any]
-  company: {name: Telerik, uri: 'http://www.telerik.com/'}
+  company: *telerik
 
 - perk: {name: TeamCity, uri: 'http://www.jetbrains.com/teamcity'}
   description: TeamCity is a user-friendly continuous integration (CI) server for professional developers and build engineers, like ourselves. It is trivial to setup, manage and use. It scales perfectly for a company or a team of any size. TeamCity is absolutely free for small teams.
