@@ -22,6 +22,7 @@ A listing of tools & services freely available to Microsoft MVP's at [http://xav
 * Try to use `{URL to Product/Service Page}` that points to information about what is needed to qualify for the MVP license.
 * `products:` is a list of tools provided by the company like `Visual Studio` or `Windows Azure benefits`.
   * If the company offers licenses to any tool of choice, enter `Any`.
+  * Do not submit freeware or shareware to be listed, those aren't really *perks* :wink:
 
 ## About mvpperks
 This is a fork of [http://ossperks.com](http://ossperks.com). The long term plan is to build something big and beautiful that provides value for any developer community, whether open source, Microsoft MVP, user group sponsoring offers, etc. But for starters we're keeping it simple while taking the pulse of the community. Is there any interest? What are the needs?
