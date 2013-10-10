@@ -16,7 +16,8 @@
 	</h2>
 	<!--<small>by <a href="{{ item.perk.uri }}">{{ item.perk.company }}</a></small>-->
 
+	<span class="tags">
 	{% for product in item.products %}<span class="tag category">{{ product }}</span>{% endfor %}
-
+	</span>
 	<p>{{ item.description }}</p>
 </li>
