@@ -1,4 +1,5 @@
 <li>
+<!--
 	<div class="product-overview">
 		<div class="product-title">
 		    <div class="tag company"><h2><a href="{{ item.perk.uri }}">{{ item.perk.company }}</a></h2></div>
@@ -8,5 +9,14 @@
 		{{ item.description }}<br/><br/>
 		{% for product in item.products %}<div class="tag category">{{ product }}</div>{% endfor %}
 	</div>
-	<div class="clear"></div>
+	<div class="clear"></div>-->
+	<h2>
+		<img src="//plus.google.com/_/favicon?domain={{ item.perk.uri }}"/>
+		<a href="{{ item.perk.uri }}">{{ item.perk.company }}</a>
+	</h2>
+	<!--<small>by <a href="{{ item.perk.uri }}">{{ item.perk.company }}</a></small>-->
+
+	{% for product in item.products %}<span class="tag category">{{ product }}</span>{% endfor %}
+
+	<p>{{ item.description }}</p>
 </li>
