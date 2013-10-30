@@ -199,6 +199,9 @@ a:hover {
     width: 101px; 
     height: 108px; 
 }
+.company-logo {
+    height: 16px;
+}
 @media all and (max-width: 35em) {
     .tagline {
         display: none;
