@@ -166,6 +166,7 @@ a:hover {
     padding-left: 20px;
     text-decoration: none;
     background-position: left;
+    background-size: 16px;
 }
 .mvpperks {
     background-image: url("//plus.google.com/_/favicon?domain=xavierdecoster.github.io/mvpperks/");
@@ -195,7 +196,7 @@ a:hover {
     color: transparent; 
     background: url('../images/logo.png');
     background-size: cover;
-    width: 104px; 
+    width: 101px; 
     height: 108px; 
 }
 @media all and (max-width: 35em) {
