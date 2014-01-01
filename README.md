@@ -1,4 +1,4 @@
-![MVP Perks](/images/logo.png)
+MVP Perks
 ---
 A listing of tools & services freely available to Microsoft MVP's at [http://xavierdecoster.github.io/mvpperks](http://xavierdecoster.github.io/mvpperks).
 
