@@ -10,10 +10,12 @@
 		{% for product in item.products %}<div class="tag category">{{ product }}</div>{% endfor %}
 	</div>
 	<div class="clear"></div>-->
+	
 	<h2>
-		<img src="//plus.google.com/_/favicon?domain={{ item.perk.uri }}" style="width:16px;"/>
+		<img src="//plus.google.com/_/favicon?domain={{ item.perk.uri }}" style="width:16px;" alt="{{ item.perk.company }}" />
 		<a href="{{ item.perk.uri }}">{{ item.perk.company }}</a>
 	</h2>
+	
 	<!--<small>by <a href="{{ item.perk.uri }}">{{ item.perk.company }}</a></small>-->
 
 	<span class="tags">
