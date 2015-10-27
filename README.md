@@ -1,6 +1,6 @@
 MVP Perks
 ---
-A listing of tools & services freely available to Microsoft MVP's at [http://xavierdecoster.github.io/mvpperks](http://xavierdecoster.github.io/mvpperks).
+A listing of tools & services freely available to Microsoft Most Valuable Professionals (MVPs) at [http://xavierdecoster.github.io/mvpperks](http://xavierdecoster.github.io/mvpperks).
 
 ## How to Add a Perk
 * Fork the repository
@@ -10,9 +10,9 @@ A listing of tools & services freely available to Microsoft MVP's at [http://xav
   #name of the company & the uri to apply for an MVP license
 - perk: {company: "Microsoft", uri: "http://mvp.microsoft.com/"}
   #product/service description
-  description: "MSDN Ultimate Subscription"
-  #the products/services offered to MVP's
-  products: ["Visual Studio", "Windows Azure Subscription"]
+  description: "MSDN Enterprise Subscription"
+  #the products/services offered to MVPs
+  products: ["Visual Studio", "Microsoft Azure Subscription"]
 ```
 * Add the results to the `perks:` list at the top of `index.html`.
 * Submit a pull request
@@ -20,7 +20,7 @@ A listing of tools & services freely available to Microsoft MVP's at [http://xav
 ### Notes
 
 * Try to use `{URL to Product/Service Page}` that points to information about what is needed to qualify for the MVP license.
-* `products:` is a list of tools provided by the company like `Visual Studio` or `Windows Azure benefits`.
+* `products:` is a list of tools provided by the company like `Visual Studio` or `Microsoft Azure benefits`.
   * If the company offers licenses to any tool of choice, enter `Any`.
   * Do not submit freeware or shareware to be listed, those aren't really *perks* :wink:
 
