@@ -1,7 +1,7 @@
 ![OSS Perks](/images/logo.png) 
 --- 
-A listing of tools & services freely available to open source projects at [ossPerks.com](http://ossperks.com/). 
-For updates, be sure to follow [@ossPerks](https://twitter.com/ossperks) on Twitter.
+A listing of tools & services freely available to open source (OSS) projects at [OSSPerks.com](http://ossperks.com/). 
+For updates, be sure to follow [@OSSPerks](http://twitter.com/ossperks) on Twitter.
 
 ## How to Add Your Favorite Perk
 * Fork the repository
@@ -25,7 +25,7 @@ For updates, be sure to follow [@ossPerks](https://twitter.com/ossperks) on Twit
 ### Notes
 
 * Try to use `{URL to Product/Service Page}` that points to information about what is needed to qualify for a free license.
-* `platforms:` is a development platform like `.net`, `Java`, `JavaScript` or `Ruby`. 
+* `platforms:` is a development platform like `.NET`, `Java`, `JavaScript` or `Ruby`. 
   * For non-platform specific tools, enter `Any`, not an operating system. 
 * Do not submit freeware or shareware to be listed, those aren't really *perks* :wink:
 
