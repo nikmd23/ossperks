@@ -1,6 +1,7 @@
 <section class="products"> 
 	<ul class="product-listing reset">
-		{% for item in page.perks %}
+		{% assign sortedPerks = site.data.perks | sort: 'company' %}
+		{% for item in sortedPerks %}
 			{% include perk.html %} 
 		{% endfor %}
 	</ul>

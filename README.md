@@ -10,13 +10,14 @@ Note: Most of these offers are also available to Microsoft Regional Directors (M
 
 ```yml
   #name of the company & the uri to apply for an MVP license
-- perk: {company: "Microsoft", uri: "http://mvp.microsoft.com/"}
+- company: "Microsoft"
+  uri: "http://mvp.microsoft.com/"
   #product/service description
   description: "MSDN Enterprise Subscription"
   #the products/services offered to MVPs
   products: ["Visual Studio", "Microsoft Azure Subscription"]
 ```
-* Add the results to the `perks:` list at the top of `index.html`.
+* Add the entry to the collection in `_data\perks.yml`.
 * Submit a pull request
 
 ### Notes
