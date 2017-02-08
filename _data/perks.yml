@@ -114,7 +114,7 @@
   products: ["Synergy"]
   
 - company: "OzCode"
-  uri: "http://www.oz-code.com/Purchase/MVP"
+  uri: "http://www.oz-code.com/CurrentPurchase/MVP"
   description: "The revolutionary debugging extension, which complements Visual Studio and supercharges the C# debugging experience."
   products: ["OzCode"]
   
