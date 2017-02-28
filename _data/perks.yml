@@ -167,3 +167,8 @@
   uri: "https://www.devart.com/highfive.html"
   description: "If you have any kind of MVP award (Microsoft MVP, Oracle ACE, Embarcadero MVP, ALM rangers, Salesforce MVP etc.) send us a link to your MVP profile, and get a free license. We also ask our MVP customers to write short reviews of advantages and disadvantages of our products."
   products: ["Any"] 
+  
+- company: "Liquid Technologies"
+  uri: "https://www.liquid-technologies.com/request-mvp-key"
+  description: "We are pleased to provide Microsoft MVP’s with a Free license to our entire Liquid Software Suite, this includes Graphical XSD, JSON Schema, WSDL & XML editors, a graphical Data Mapper, XML Data Binding, Visual Studio Integration, Web Service tools and much more."
+  products: ["Any"] 
