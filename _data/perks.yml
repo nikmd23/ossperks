@@ -119,9 +119,9 @@
   products: ["OzCode"]
   
 - company: "Acceleratio"
-  uri: "https://www.spdockit.com"
-  description: "We provide you with a free subscription for SPDocKit – Consultant Subscription - Ultimate Edition. This subscription covers unlimited farms for a period of one year. Write a email to support@acceleratio.net with a link to the MVP Profile."
-  products: ["SPDocKit"]
+  uri: "https://acceleratio.net"
+  description: "We provide you with a free subscription for our tools SPDocKit, SQLDocKit, SysKit or CloudKit 365. Send us an email to support@acceleratio.net with a link to the MVP Profile."
+  products: ["SPDocKit", "SQLDocKit", "SysKit", "CloudKit 365"]
   
 - company: "Digicert"
   uri: "https://www.digicert.com/friends/mvp.php"
