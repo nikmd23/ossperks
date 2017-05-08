@@ -177,3 +177,8 @@
   uri: "https://codealike.com"
   description: "Sign up to Codealike. Then e-mail or send us a tweet just saying what your Codealike username and MVP profile page is. Codealike Premium will be free to MVPs forever."
   products: ["Codealike Premium"] 
+  
+  - company: "PostSharp"
+  uri: "https://www.postsharp.net/purchase/request-free"
+  description: "We offer free PostSharp licenses to Microsoft MVPs, influential bloggers, authors, user group leaders and qualified freelancers."
+  products: ["PostSharp"] 
