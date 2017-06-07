@@ -182,10 +182,8 @@
   uri: "https://www.postsharp.net/purchase/request-free"
   description: "We offer free PostSharp licenses to Microsoft MVPs, influential bloggers, authors, user group leaders and qualified freelancers."
   products: ["PostSharp"] 
-  
- - company: "ApexSQL"
+
+- company: "ApexSQL"
   uri: "https://blog.apexsql.com/apexsql-to-microsoft-mvps-and-vips-your-money-is-no-good-here/"
   description: "Any Microsoft SQL or SharePoint MVP – 1 free license of ApexSQL Universal. Any other Microsoft MVP (e.g. C#, VB.NET, etc) – 1 free license of ApexSQL Developer. Any SQL MCT – 1 free license of ApexSQL Universal (please provide MCT number). Any SQL Server VIP – blogger, community evangelist, technical authority, etc. – 1 free license of ApexSQL Universal"
-  products: ["ApexSQL Universal", "ApexSQL Developer"] 
-  
-  
+  products: ["ApexSQL Universal", "ApexSQL Developer"]
