@@ -187,3 +187,8 @@
   uri: "https://blog.apexsql.com/apexsql-to-microsoft-mvps-and-vips-your-money-is-no-good-here/"
   description: "Any Microsoft SQL or SharePoint MVP – 1 free license of ApexSQL Universal. Any other Microsoft MVP (e.g. C#, VB.NET, etc) – 1 free license of ApexSQL Developer. Any SQL MCT – 1 free license of ApexSQL Universal (please provide MCT number). Any SQL Server VIP – blogger, community evangelist, technical authority, etc. – 1 free license of ApexSQL Universal"
   products: ["ApexSQL Universal", "ApexSQL Developer"]
+
+- company: "Axialis"
+  uri: "http://www.axialis.com/mvp/"
+  description: "At Axialis we welcome Microsoft MVPs and Regional Directors by offering Free NFR licenses of all our products. Our goal is to help you with your work and receive feedback from you to enhance our products."
+  products: ["IconWorkshop", "CursorWorkshop", "IconGenerator", "All Bitmap Icon Sets", "All Vector Icon Sets"]
