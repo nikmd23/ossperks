@@ -21,7 +21,7 @@
 - company: "JetBrains"
   uri: "https://www.jetbrains.com/community/support/?fromMenu#section=mvps-partnership"
   description: "We provide Microsoft Most Valuable Professionals with .NET tools and WebStorm licenses."
-  products: ["ReSharper", "dotTrace", "dotMemory", "dotCover", "WebStorm"]
+  products: ["ReSharper", "Rider", "dotTrace", "dotMemory", "dotCover", "WebStorm", "ReSharper C++"]
 
 - company: "MyGet"
   uri: "https://www.myget.org/mvp"
