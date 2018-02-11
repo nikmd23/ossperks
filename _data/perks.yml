@@ -192,3 +192,8 @@
   uri: "http://www.axialis.com/mvp/"
   description: "At Axialis we welcome Microsoft MVPs and Regional Directors by offering Free NFR licenses of all our products. Our goal is to help you with your work and receive feedback from you to enhance our products."
   products: ["IconWorkshop", "CursorWorkshop", "IconGenerator", "All Bitmap Icon Sets", "All Vector Icon Sets"]
+
+- company: "Devolutions"
+  uri: "https://devolutions.net/offer/nfr"
+  description: "Devolutions offers free NFR (Not for Resale) licenses to Microsoft MVP, Citrix CTP and VMware vExpert for personal use and demo purposes."
+  products: ["Enterprise License for Remote Desktop Manager"]
