@@ -197,3 +197,8 @@
   uri: "https://devolutions.net/offer/nfr"
   description: "Devolutions offers free NFR (Not for Resale) licenses to Microsoft MVP, Citrix CTP and VMware vExpert for personal use and demo purposes."
   products: ["Enterprise License for Remote Desktop Manager"]
+  
+- company: "RevDeBug"
+  uri: "https://academy.revdebug.com/"
+  description: "RevDeBug offers a free license, training and support, visual materials, development roadmap, and the ability to vote and raise issues for MVPs."
+  products: ["RevDeBug License"]
