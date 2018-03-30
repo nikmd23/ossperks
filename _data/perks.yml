@@ -202,3 +202,8 @@
   uri: "https://academy.revdebug.com/"
   description: "RevDeBug offers a free license, training and support, visual materials, development roadmap, and the ability to vote and raise issues for MVPs."
   products: ["RevDeBug License"]
+    
+- company: "Windy Range Software"
+  uri: "https://www.querystorm.com/"
+  description: "QueryStorm brings SQL and C# into Excel. It enables querying Excel tables with SQL/LINQ and allows rapid prototyping with C#/Excel. Microsoft MVP's get a free perpetual license that can be used on up to three machines. Fill out the form at https://www.querystorm.com/mvp.html and claim your license."
+  products: ["QueryStorm Unlimited License"]
