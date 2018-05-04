@@ -118,10 +118,10 @@
   description: "The revolutionary debugging extension, which complements Visual Studio and supercharges the C# debugging experience."
   products: ["OzCode"]
   
-- company: "Acceleratio"
-  uri: "https://acceleratio.net"
-  description: "We provide you with a free subscription for our tools SPDocKit, SQLDocKit, SysKit or CloudKit 365. Send us an email to support@acceleratio.net with a link to the MVP Profile."
-  products: ["SPDocKit", "SQLDocKit", "SysKit", "CloudKit 365"]
+- company: "SysKit"
+  uri: "https://www.syskit.com"
+  description: "We provide you with a free subscription for our tools SPDocKit, SysKit Monitor, SysKit Insights, SysKit Security Manager, SysKit Shell. Send us an email to support@syskit.com with a link to the MVP Profile."
+  products: ["Any"]
   
 - company: "Digicert"
   uri: "https://www.digicert.com/friends/mvp.php"
