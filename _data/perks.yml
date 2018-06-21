@@ -21,7 +21,7 @@
 - company: "JetBrains"
   uri: "https://www.jetbrains.com/community/support/#section=dev-recognition"
   description: "We provide Microsoft Most Valuable Professionals with an All Products Pack, including licenses for .NET tools such as ReSharper and Rider, WebStorm, DataGrip and many more."
-  products: ["All products" "ReSharper", "Rider", "dotTrace", "dotMemory", "dotCover", "WebStorm", "ReSharper C++", "..."]
+  products: ["All Products Pack", "ReSharper", "Rider", "dotTrace", "dotMemory", "dotCover", "WebStorm", "ReSharper C++", "..."]
 
 - company: "MyGet"
   uri: "https://www.myget.org/mvp"
