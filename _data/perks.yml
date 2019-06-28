@@ -212,8 +212,3 @@
   uri: "https://www.git-tower.com/support/contact"
   description: "We offer free NFR licenses to Microsoft MVPs for 'Tower', our Git desktop client for Windows and Mac. MVPs can simply and informally get in touch with our support to claim their license."
   products: ["Tower"]
-  
-- company: "GitPitch"
-  uri: "https://gitpitch.com/docs/promotions/microsoft-mvp/"
-  description: "GitPitch is a Markdown Presentation Service for everyone on GitHub, GitLab, and Bitbucket. Leverage the tools you already know and love ~ Markdown + Git. Build beautiful presentations with ease with the GitPitch Pro Edition for Desktop."
-  products: ["GitPitch Pro License"]
