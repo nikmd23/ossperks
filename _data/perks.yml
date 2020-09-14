@@ -93,11 +93,6 @@
   description: "CloudBerry lab offers FREE license for CloudBerry products to bloggers. To qualify as a blogger you should have minimum Google PR3 blog with related content. When filling in the form you should specify the URL to your active MVP profile."
   products: ["Any"]
   
-- company: "Continuous IT"
-  uri: "http://getseq.net/"
-  description: "We provide MVPs with a free Team Edition license for the Seq .NET Structured Event Server (not-for-resale)."
-  products: ["Seq"]
-  
 - company: "SiaqoDB"
   uri: "http://siaqodb.com/pricing/"
   description: "SiaqoDB provides MVPs with a free Bundle license for their NoSQL embedded object and document database engine."
