@@ -207,3 +207,8 @@
   uri: "https://www.git-tower.com/support/contact"
   description: "We offer free NFR licenses to Microsoft MVPs for 'Tower', our Git desktop client for Windows and Mac. MVPs can simply and informally get in touch with our support to claim their license."
   products: ["Tower"]
+
+- company: "Octopus Deploy"
+  uri: "https://github.com/OctopusDeployCommunity/OctopusCommunity/blob/main/friends.md"
+  description: "We offer Microsoft MVPs and Friends of Redgate a free self-hosted or Octopus Cloud license."
+  products: ["Octopus Deploy"]
