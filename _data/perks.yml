@@ -8,6 +8,11 @@
   description: "Microsoft MVPs can claim a complimentary personal licenses for any one of our drivers for real-time access to on-line or on-premise applications, databases, and Web APIs. (Salesforce, Dynamics CRM, MongoDB, BigQuery, Marketo, HubSpot, etc.)"
   products: ["ADO.NET Data Providers", "ODBC Drivers", "SQL SSIS Tasks", "Cloud Drivers", "BizTalk Adapters"]
 
+- company: "Cherryware"
+  uri: "https://www.showmaster.app"
+  description: "Get your PowerPoint presentations to the next level with an array of exciting animations, countdown and music themes, framing your upcoming talk. Create a stunning intro for your next presentation. To receive your free MVP license, write to support@cherryware.com with a link to your MVP profile."
+  products: ["PowerPoint", "Showmaster PRO"]
+
 - company: "Infragistics"
   uri: "http://www.infragistics.com/community/blogs/d-coding/archive/2015/04/01/infragistics-benefits-for-microsoft-mvps.aspx"
   description: "You will have completely unrestricted access to the entire Infragistics library, including all of our .NET platforms, our new Xamarin.Forms controls, and even our prototyping tool, Indigo Studio."
