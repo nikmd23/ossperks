@@ -84,7 +84,7 @@
   products: ["NCover Desktop"]
   
 - company: "ESET"
-  uri: "http://www.eset.com/us/research/offers/mvp/"
+  uri: "https://store.eset.com/us/research/offers/mvp/"
   description: "ESET provides MVPs with a free (Not-For Resale) licenses for your personal use."
   products: ["File Security for Windows Server", "Endpoint Security", "Mail Security for Exchange Server", "Mobile Security for Android", "Security for SharePoint Server"]
   
