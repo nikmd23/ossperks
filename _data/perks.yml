@@ -43,11 +43,6 @@
   description: ".NET Developer Tools and Controls, End-to-End Mobile Solution and Testing."
   products: ["DevCraft Complete Edition", "Telerik Platform Business Subscription", "Test Studio Ultimate Perpetual License"]
 
-- company: "TechSmith"
-  uri: "http://www.techsmith.com/evangelists/mvp"
-  description: "Record onscreen activity at your desk or in front of an audience and create eye-catching HD-quality training, presentation, and demo videos. Quickly create professional quality videos that you can share with anyone, on nearly any device – without formal training."
-  products: ["SnagIt", "Camtasia Studio", "Camtasia Studio for Mac"]
-
 - company: "SyncFusion"
   uri: "http://www.syncfusion.com/sales/licensemodel#MicrosoftMVP"
   description: "We know that Microsoft MVPs provide resources and guidance to the development community. Syncfusion would like to reward that contribution with free, not-for-resale (NFR) licenses of our products to MVPs."
