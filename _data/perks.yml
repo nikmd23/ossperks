@@ -18,11 +18,6 @@
   description: "You will have completely unrestricted access to the entire Infragistics library, including all of our .NET platforms, our new Xamarin.Forms controls, and even our prototyping tool, Indigo Studio."
   products: ["Infragistics Ultimate"]
 
-- company: "Redgate"
-  uri: "http://www.red-gate.com/community/mvp-program"
-  description: "Interested in using or reviewing our tools? We can provide you with free NFR licenses. We hope it'll give you the chance to get to know our products and to help others with problems which could be solved by using our tools."
-  products: ["Any"]
-
 - company: "JetBrains"
   uri: "https://www.jetbrains.com/community/support/#section=dev-recognition"
   description: "We provide Microsoft Most Valuable Professionals with an All Products Pack, including licenses for .NET tools such as ReSharper and Rider, WebStorm, DataGrip and many more."
